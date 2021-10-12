@@ -14,8 +14,8 @@ void draw() {
     
     Die dice = new Die(x,y);
   dice.show();
-  dice.roll();
- sum+= dice.roll;
+  dice.rolls();
+ sum+= dice.rolls;
    fill(0);
  textSize(20);
  text("Total chocolate chips: " + sum,160,520);
@@ -43,7 +43,7 @@ class Die {
   }
 
 
-void roll() {
+void rolls() {
  
   for(int i = 0; i < roll;i++){
   
