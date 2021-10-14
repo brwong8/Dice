@@ -46,7 +46,7 @@ class Die {
 
 void rolls() {
  
-  for(int i = 0; i < roll;i++){
+  //for(int i = 0; i < roll;i++){
   
   if (roll == 1) {
     fill(0);
@@ -97,7 +97,7 @@ void rolls() {
 
  
  
-}
+//}
 }
 }
 void mousePressed() {
