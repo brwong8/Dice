@@ -13,9 +13,10 @@ void draw() {
     for(int y = 20; y <= 500; y = y + 50){
     
     Die dice = new Die(x,y);
-  dice.show();
+  
   dice.rolls();
- sum+= dice.roll;
+ sum += dice.roll;
+ dice.show();
    fill(0);
  textSize(20);
  text("Total chocolate chips: " + sum,160,520);
