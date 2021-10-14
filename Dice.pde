@@ -1,4 +1,4 @@
-Die dice; 
+//Die dice; 
 void setup() {
   size(500,600);
   background(144, 214, 161);
@@ -8,7 +8,7 @@ void setup() {
 void draw() {
      int sum = 0;
   background(144, 214, 161);
-   noLoop();
+   //noLoop();
   for(int x = 20; x <= 500; x = x + 50) {
     for(int y = 20; y <= 500; y = y + 50){
     
