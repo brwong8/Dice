@@ -14,7 +14,7 @@ void draw() {
     
     Die dice = new Die(x,y);
   
-  dice.rolls();
+  dice.cookie();
  sum += dice.roll;
  dice.show();
    fill(0);
@@ -44,7 +44,7 @@ class Die {
   }
 
 
-void rolls() {
+void cookie() {
  
   //for(int i = 0; i < roll;i++){
   
