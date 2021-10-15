@@ -15,7 +15,7 @@ void draw() {
     Die dice = new Die(x,y);
   
   dice.cookie();
- sum += dice.roll;
+ sum = sum + dice.roll;
  dice.show();
    fill(0);
  textSize(20);
