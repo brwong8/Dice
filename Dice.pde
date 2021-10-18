@@ -14,9 +14,10 @@ void draw() {
     
     Die dice = new Die(x,y);
   
-  dice.cookie();
+
  sum = sum + dice.roll;
  dice.show();
+   dice.cookie();
    fill(0);
  textSize(20);
  text("Total chocolate chips: " + sum,160,520);
